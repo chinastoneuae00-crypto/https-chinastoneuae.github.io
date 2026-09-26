@@ -7,3 +7,9 @@
   width: 100px;
   hight: 100px;
 }
+body {
+  border: 3px solid #222;
+  box-sizing: border-box;
+  min-height: 100vh;
+  box-shadow: inset 0 0 0 2px #d4af37;
+}
