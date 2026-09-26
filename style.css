@@ -7,9 +7,13 @@
   width: 100px;
   hight: 100px;
 }
-body {
-  border: 3px solid #222;
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  border: 4px solid #d4af37;
+  box-shadow: inset 0 0 0 3px #c62828;
   box-sizing: border-box;
-  min-height: 100vh;
-  box-shadow: inset 0 0 0 2px #d4af37;
+  pointer-events: none;
+  z-index: 99999;
 }
